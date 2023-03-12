@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="tab icon logo" href="GoGrow_Logo.JPG" type="image/icon/logo">
+<link rel="stylesheet" href="main_page_stylesheet.css">
+<link rel="stylesheet" media="screen and (max-width: 700px)" type="text/css" href="mobile_device.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<title>Brandon Fox</title>
+</head>
+<body>
+    <header class="sticky scrolling" data-aos="fade-up">
+        <section class="contact">
+          <a href="mailto:brandonmfox@gmail.com"><i class="fa-regular fa-envelope fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/brandon-fox-25879515a/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        </section>
+        <nav id="navbar" style="background-color:aliceblue;">
+        <ul>
+            <button onclick="go('#home')"><li class="links active"><a name="target" style="color: rgb(63, 63, 255)">Home</a></li></button>
+            <button onclick="go('#about')"><li class="links active"><a name="target" style="color: rgb(63, 63, 255)">About</a></li></button>
+            <button onclick="go('#projects')"><li class="links active"><a style="color: rgb(63, 63, 255)">Projects</a></li></button>
+            <button onclick="go('#references')"><li class="links active"><a style="color: rgb(63, 63, 255)">References</a></li></button>
+            <button onclick="résumé(); return false;"><li><a href="javascript:void(0)" style="color: rgb(63, 63, 255)">Résumé</a></li></button>
+        </ul>
+        </nav>
+    </header>
+    <img src="Photo_Of_Me_Brandon_Fox.jpg" class= "me" alt="pic of me">
+    <div class= "main" data-aos="fade-down">
+        <h1>Brandon Fox</h1>
+        <h2>B.S. Degree in Mathematics from SUNY New Paltz</h2>
+        <button class="announcements" onclick="announcementAlert()">Announcements</button>
+    </div>
+    <section id="about" data-aos="fade-up">
+        <h2><u>About Me</u></h2>
+        <p>
+           <b>Hi, everybody! Allow me to introduce myself, if I may.</b>
+           <br> 
+           </br>
+           As y'all can guess, my name is Brandon Fox. I'm just your everyday hard, yet creative, worker in the
+           fields of science and art (<b>everything</b> that I do is essentially an <b>art!</b>).
+           <br>
+           </br>
+           My credentials include: Bachelor's of Science in mathematics from SUNY New Paltz. 
+           <br>
+           </br>
+           My work history primarily includes having provided tutoring services for those working in high school and low-college level mathematics.
+           Areas in mathematics, where I have helped students/clients were particularly in: algebra (both high school and college), geometry, pre-calculus, calculus
+           (both inetgral and differential), and introductory proof-writing.
+           <br>
+           </br>
+           Right now, I'm figuring out what I want to do for a long-term job/career.
+           <br>
+           </br>
+           Things that I like to do in my free time are traveling, watching Anime, including: <i>One Piece</i>, <i>Nichijou</i>, <i>Fruits Basket</i>, and many 
+           others, cooking, playing piano, backgammon, and video games, listening to music, creating art skecthes, and spending time with my family and loved ones.
+           <br>
+           </br>
+           <b>See my LinkedIn profile and résumé for more information about me!</b>
+           <br>
+           </br>
+           <b>ENJOY THE REST OF MY WEBSITE! :)</b>
+        </p>
+    </section>
+    <section id="projects" data-aos="fade-up">
+      <h2><u>My Projects</u></h2>
+        <div class="first-project-image">
+        <h3>Image Processing Research Project</h3>
+        <a href="Brandon Fox Fall2021 Research.pdf"><img src="Two_Dim_Diffusion_With_Image_Applied.jpg" alt="pic of preview"></a>
+        <h4>Click on the picture to learn more about this project.</h4>
+        </div>
+        <div class="first-project-text" data-aos="fade-right">
+            <p>
+                <b><u>Description</u>: The main objective of this project was to be able to utilize specific MATLAB programming and knowledge of 
+                PDEs (Partial Differential Equations) towards denoising images that have been corrupted by Gaussian noise. The primary PDE that was 
+                focused for this project was the diffusion/heat PDE, <i>u<sub>t</sub> = ku<sub>xx</sub></i>, such that <i>k</i> is the diffusion coefficient
+                (this was set to equal 1 throughout the project), with Neumann and Dirichlet boundary conditions, where these boundary conditions 
+                become specialized image denoising conditions when a general solution for the PDE is found at some <i>t</i> > 0 time.</b>
+            </p>
+        <ul>
+            <li>With Dr. Jeungeun Park of SUNY New Paltz</li>
+            <li>Original image obtained from Hanayo Sora (@SoraHanayo) from Twitter</li>
+            <li>Project signed and approved on December 2021 by SUNY New Paltz Dept. Chairperson, Dr. David Hobby</li>
+        </ul>
+        </div>
+          <div class="coming-soon" data-aos="fade-down-left">
+           <b>More Coming Soon!</b>
+         </div>
+        </div>
+    </section>
+    <section id="references" data-aos="fade-up">
+        <h2><u>References</u></h2>
+        <ol>
+            <li><u>Dr. D. Hobby's SUNY New Paltz Profile</u>: https://webapps.newpaltz.edu/directory/profile/davidhobby</li>
+            <li><u>Dr. J. Park's Website</u>: https://sites.google.com/site/jepark0915/home?authuser=0</li>
+            <li><u>Hanayo Sora's Twitter (@SoraHanayo)</u>: https://twitter.com/SoraHanayo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor</li>
+        </ol>
+    </section>
+<hr>
+</hr>
+<footer data-aos="fade-right">
+    <img src="GoGrow_Banner_No_Background.png" alt="pic of banner version of logo with no background">
+    <h5>Responsive, animated website created with HTML, CSS, and JavaScript</h5>
+</footer>
+
+<!--JavaScript Code-->
+<script type="text/javascript">
+    /*Loading in (or installing) the AOS (Animate On Scroll) library and setting scrolling animation 
+    properties.*/
+    AOS.init({
+        duration: 700,
+    }); 
+
+    function résumé(){
+        window.open("Résumé (Brandon Fox).pdf","_blank");
+    }
+
+    function activeness(){
+        let length = sections.length;
+        while((length--) && (window.scrollY + 456 < sections[length].offsetTop)){}
+            links.forEach((links) => links.classList.remove("active"));
+            links[length].classList.add("active");
+    }
+
+    function go(id){
+        let loc = document.querySelector(id);
+        let y = loc.offsetTop - 90;
+        window.scrollTo({
+            top: y
+        });
+    }
+
+    function announcementAlert(){
+        window.alert("I will be on a Birthright trip to Israel, from March 19th, 2023 to March 30th, 2023. During this time, this website and other personal profile sources (i.e. LinkedIn profile page, résumé) will not be updated.");
+    }
+    
+    const links = document.querySelectorAll(".links");
+    const sections = document.querySelectorAll("section");
+
+    activeness();
+    window.addEventListener("scroll", activeness);
+   </script>
+<!--End of JavaScript Code-->
+
+<!--Fade-in transition upon (re)entry into the website-->
+<style>
+    a,.me,.main,.fa-envelope,.fa-brands{
+        animation: fadeIn ease-in 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeIn{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+</style>
+</body>
+</html>
